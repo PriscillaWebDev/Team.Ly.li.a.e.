@@ -1,0 +1,206 @@
+* { 
+    margin: 0;
+    padding: 0; 
+  }
+
+/* Contatti */
+
+.contacts {
+  background-image: url(../img/contacts.jpeg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding: 40px 0;
+  color: #203864;
+  text-align: center; 
+  font-family: 'Kanit', sans-serif;
+}
+
+.contacts h1 {
+  font-size: 30px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #203864;
+  margin: 26px auto;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.contact {
+  background: #fff;
+  padding: 30px;
+}
+
+.contact img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.profession {
+  font-size: 17px;
+  color: #203864;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profession i {
+  margin-right: 10px;
+}
+
+.e-mail {
+  font-size: 17px;
+  color: #203864;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.e-mail i {
+  margin-right: 10px;
+}
+
+.e-mail a {
+  color: #203864 ;
+}
+
+.phone {
+  font-size: 17px;
+  color: #203864;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;  
+}
+
+.phone i {
+  margin-right: 10px;
+}
+
+.phone a {
+  color: #203864 ;
+}
+
+
+
+@media screen and (max-width:960px) {
+  .col {
+    flex:100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .col {
+    flex:100%;
+    max-width: 100%;
+  }
+}
+
+
+
+/* Sedi lavorative */
+
+#work-locations { 
+  text-align: justify;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#work-locations h1 { 
+  color: #203864;
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif;
+  text-align: left;
+}
+
+.work-locations-content { 
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #203864;
+  line-height: 30px;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px; 
+} 
+
+#work-locations .work-locations-image {
+  background-image: url(../img/work_locations.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+
+/* Avviso per gli utenti */
+
+#coming-soon { 
+  background-image: url(../img/coming_soon.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#coming-soon h1 { 
+  text-align: center;
+  color: #203864;
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#coming-soon h2 { 
+  text-align: center;
+  color: #203864; 
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+#coming-soon h3 { 
+  text-align: center;
+  color: #203864; 
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
